@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scaler × SWAYAM | AI Learning Portal</title>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: #ffffff;
+    color: #1e293b;
+}
+
+/* ================= NAVBAR ================= */
+.navbar {
+    width: 100%;
+    padding: 22px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.logo-wrapper img {
+    height: 38px;
+    object-fit: contain;
+}
+
+.divider {
+    width: 1px;
+    height: 30px;
+    background: #cbd5e1;
+}
+
+/* ================= HERO ================= */
+.hero {
+    padding: 90px 20px 70px;
+    text-align: center;
+    background: linear-gradient(180deg, #f8fbff 0%, #eef5ff 100%);
+}
+
+.hero h1 {
+    font-size: 42px;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 18px;
+}
+
+.hero p {
+    max-width: 720px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #475569;
+}
+
+/* ================= COURSE SECTION ================= */
+.course-section {
+    padding: 70px 60px 100px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    background: #ffffff;
+}
+
+.card {
+    width: 340px;
+    padding: 32px;
+    border-radius: 16px;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.05);
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 18px 40px rgba(37, 99, 235, 0.12);
+    border-color: #2563eb;
+}
+
+.card h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 14px;
+    color: #0f172a;
+}
+
+.card p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #475569;
+    margin-bottom: 28px;
+}
+
+.launch-btn {
+    display: inline-block;
+    padding: 10px 18px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 8px;
+    background: #2563eb;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.card:hover .launch-btn {
+    background: #1d4ed8;
+}
+
+/* ================= FOOTER ================= */
+.footer {
+    text-align: center;
+    padding: 24px;
+    font-size: 14px;
+    color: #64748b;
+    border-top: 1px solid #e2e8f0;
+    background: #ffffff;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 768px) {
+
+    .navbar {
+        padding: 20px;
+    }
+
+    .course-section {
+        padding: 50px 20px 80px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 420px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+    <div class="logo-wrapper">
+        <img src="https://assets.fp.scaler.com/seo/_next/static/media/scaler-light.6def257e.svg" alt="Scaler Logo">
+        <div class="divider"></div>
+        <img src="https://companion-user-resumes.s3.ap-south-1.amazonaws.com/assets/swayam_logo.svg" alt="SWAYAM Logo">
+    </div>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+    <h1>AI-Powered Learning Experience</h1>
+    <p>
+        Welcome to the collaborative AI learning portal by Scaler and SWAYAM.
+        Explore next-generation educational tools and enhance your learning journey.
+    </p>
+</section>
+
+<!-- COURSE CARDS -->
+<section class="course-section">
+
+    <a class="card" href="https://fe.staging.companion.scaler.com/external/swayam/bypass_auth?course_id=noc26_hs51&user_email=kanishk.jha@scaler.com">
+        <h2>Exercise and Sports Biomechanics</h2>
+        <p>Explore the science behind human movement and athletic performance.</p>
+        <span class="launch-btn">Launch Course →</span>
+    </a>
+
+    <a class="card" href="https://fe.staging.companion.scaler.com/external/swayam/bypass_auth?course_id=noc26_cs88&user_email=kanishk.jha@scaler.com">
+        <h2>Introduction to Large Language Models (LLMs)</h2>
+        <p>Understand modern AI systems, transformers, and generative models.</p>
+        <span class="launch-btn">Launch Course →</span>
+    </a>
+
+    <a class="card" href="https://fe.staging.companion.scaler.com/external/swayam/bypass_auth?course_id=noc26_de08&user_email=kanishk.jha@scaler.com">
+        <h2>Innovation by Design</h2>
+        <p>Master structured creativity and product innovation strategies.</p>
+        <span class="launch-btn">Launch Course →</span>
+    </a>
+
+</section>
+
+<!-- FOOTER -->
+<div class="footer">
+    © 2026 Scaler × SWAYAM | AI Learning Collaboration Demo
+</div>
+
+</body>
+</html>
